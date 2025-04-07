@@ -1,0 +1,1 @@
+top -b -n 1 | grep '%Cpu(s)' | awk '{total=$2 + $4 + $6 + $ 10; print "CPU Total: " total "%"}'
